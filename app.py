@@ -19,7 +19,7 @@ def index():
     #blob_client.upload_blob(open('image.jfif', 'rb'))
     blob_client.download_blob().readinto(open('image.jfif', 'wb'))
     
-    return send_file('image.jfif')
+    return send_file('image.jfif', as_attachment = True)
     #return render_template('index.html')
 
 
