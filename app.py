@@ -25,7 +25,7 @@ def upload_file():
         <input type = "submit" name = "Upload">
     </form>
     
-    <a href = 'www.somesite.info'> Visit another site </a>
+    <a href = 'https://www.somesite.info/'> Visit another site </a>
     """
     return html
 
