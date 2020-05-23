@@ -24,6 +24,8 @@ def upload_file():
         <input type = "file" name = "file_name">
         <input type = "submit" name = "Upload">
     </form>
+    
+    <a href = 'www.somesite.info'> Visit another site </a>
     """
     return html
 
